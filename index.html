@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header><h1>Mateus Gewehr</h1></header>
+    <main>
+        <h1 id="titulo_palavras">Palavras</h1>
+        <section id="lista_de_palavras">
+            <div class="coluna_da_lista">
+                <button class="palavra" id="p0">Pneumonoultramicroscopicsilicovolcanoconiosis</button>
+                <button class="palavra" id="p1">Hippopotomonstrosesquippedaliophobia</button>
+                <button class="palavra" id="p2">Floccinaucinihilipilification</button>
+                <button class="palavra" id="p3">Kakorrhaphiophobia</button>
+                <button class="palavra" id="p4">Eellogofusciouhipoppokunurious</button>
+            </div>
+            <div class="coluna_da_lista">
+                <button class="palavra" id="p5">Embezzlement</button>
+                <button class="palavra" id="p6">Awry</button>
+                <button class="palavra" id="p7">Rhythm</button>
+                <button class="palavra" id="p8">Twelfth</button>
+                <button class="palavra" id="p9">Vehicle</button>
+            </div>
+        </section>
+        <section id="dialogo_contexto">
+            <div class="titulo_dialogo">
+                <h2>Contexto</h2>
+                <div class="divisoria_dialogo">
+                    <button class="linha"></button>
+                    <div class="circulo"><img class="seta" id="seta_contexto" src="./assets/seta.svg" alt="seta"></div>
+                </div>
+            </div>
+            <section class="conteudo_dialogo" id="contexto_dialogo"></section>
+        </section>
+        <section id="dialogo_sentence">
+            <div class="titulo_dialogo">
+                <h2>Sentence</h2>
+                <div class="divisoria_dialogo">
+                    <button class="linha"></button>
+                    <div class="circulo"><img class="seta" id="seta_sentence" src="./assets/seta.svg" alt="seta"></div>
+                </div>
+            </div>
+            <section class="conteudo_dialogo" id="sentence_dialogo">
+                <p id="paragrafo_sentence"><img id="audio_sentence" src="./assets/audio.svg" alt="áudio"></p>
+            </section>
+        </section>
+        <!-- <section id="pop_up"><img src="https://s2.static.brasilescola.uol.com.br/be/2023/06/adam-smith.jpg" alt=""></section> -->
+        <div id="fundo_pop_up"></div>
+        <section id="pop_up">
+            <div>
+                <div class="titulo_pop_up">
+                    <h1 id="palavra_em_ingles"></h1>
+                    <img class="audio" id="audio_ingles" src="./assets/audio.svg" alt="Ícone de Áudio">
+                </div>
+                <div class="linha_divisao"></div>
+                <h4 class="lingua">Inglês</h4>
+                <p id="def_ingles" class="definicao"></p>
+            </div>
+            <div>
+                <div class="titulo_pop_up">
+                    <h1 id="palavra_em_portugues"></h1>
+                    <img class="audio" id="audio_portugues" src="./assets/audio.svg" alt="Ícone de Áudio">
+                </div>
+                <div class="linha_divisao"></div>
+                <h4 class="lingua">Português</h4>
+                <p id="def_portugues" class="definicao"></p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

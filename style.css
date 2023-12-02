@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+b {
+    font-weight: 700;
+}
+
+header {
+    padding: 2rem 2rem 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#titulo_palavras {
+    margin: 0px 0px 2rem 4rem;
+}
+
+#lista_de_palavras {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coluna_da_lista {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.palavra {
+    border: none;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 8px 28px;
+    width: 25vw;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+h2 {
+    margin-left: 0.5rem;
+}
+
+.titulo_dialogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.divisoria_dialogo {
+    display: flex;
+    align-items: center;
+}
+
+.linha {
+    height: 0px;
+    width: 75vw;
+    border: 5px solid #d9d9d9;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.circulo {
+    height: 3rem;
+    width: 3rem;
+    background-color: #d9d9d9;
+    border-radius: 100px;
+    margin-left: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta {
+    height: 1.5rem;
+    padding-top: 5px;
+}
+
+
+.conteudo_dialogo {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin: 1rem 1.5rem 0.5px 0px;
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+#pop_up {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 64vh;
+    width: 45vw;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 2rem 3rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linha_divisao {
+    height: 0px;
+    border: 2px solid black;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.audio {
+    height: 3rem;
+}
+
+.titulo_pop_up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lingua {
+    padding: 0.5rem 0.5rem 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.definicao {
+    font-size: 2rem;
+}
+
+#fundo_pop_up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, rgb(98,12,112) 0%, rgba(0,0,0,0) 100%);
+    display: none;
+}
+
+#dialogo_contexto {
+    margin: 15vh 9rem 0px 9rem;
+}
+
+#dialogo_sentence {
+    margin: 5vh 9rem 0px 9rem;
+}
+
+#audio_sentence {
+    width: 2rem;
+}
+
+#paragrafo_sentence {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
